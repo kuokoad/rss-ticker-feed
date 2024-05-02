@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     // Function to start ticker animation
     function startTickerAnimation() {
         var tickerWidth = $('.rss-ticker').width(); // Get width of ticker content
-        var tickerSpeed = tickerWidth / 100; // Adjust as needed for speed
+        var tickerSpeed = tickerWidth / 120; // Adjust as needed for speed
 
         // Set animation duration based on ticker content width
         $('.rss-ticker').css('animation-duration', tickerSpeed + 's');
